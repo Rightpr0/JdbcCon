@@ -29,6 +29,11 @@ public class Info {
 	public void setTel(String tel) {
 		this.tel = tel;
 	}
+	@Override
+	public String toString() {
+		return "Info [id=" + id + ", name=" + name + ", sex=" + sex + ", tel="
+				+ tel + "]";
+	}
 	
 
 }

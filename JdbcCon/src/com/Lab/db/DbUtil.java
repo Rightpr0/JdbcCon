@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 public class DbUtil {	
 	
-	private static final String URL="jdbc:MySQL://127.0.0.1:33550/kechengbiao?useSSL=true";
+	private static final String URL="jdbc:MySQL://127.0.0.1:33550/student?useSSL=true";
 	private static final String USER="root";
 	private static final String PASSWORD="123456";	
 	private static Connection conn=null;
